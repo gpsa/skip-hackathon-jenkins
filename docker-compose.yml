@@ -1,6 +1,8 @@
 jenkins:
   build: .
   dockerfile: Dockerfile
+  environment:
+   - "TRY_UPGRADE_IF_NO_MARKER=true"
   ports:
    - "8080:8080"
    - "50000:50000"

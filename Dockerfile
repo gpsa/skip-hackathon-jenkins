@@ -37,4 +37,3 @@ RUN composer global config minimum-stability dev && \
 	    phploc/phploc pdepend/pdepend phpmd/phpmd sebastian/phpcpd \
 	    mayflower/php-codebrowser
 
-
